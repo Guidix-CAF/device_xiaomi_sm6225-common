@@ -12,6 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Platform
+TARGET_BOARD_PLATFORM := bengal
+
 # Include GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
@@ -350,7 +353,6 @@ PRODUCT_COPY_FILES += \
 
 # QC common
 PRODUCT_BOARD_PLATFORM := bengal
-TARGET_BOARD_PLATFORM := bengal
 TARGET_USE_BENGAL_HALS := true
 
 $(call inherit-product, device/qcom/common/common.mk)
