@@ -406,7 +406,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/bootctrl \
-    vendor/hardware/xiaomi
+    hardware/xiaomi
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
