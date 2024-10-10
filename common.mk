@@ -292,7 +292,7 @@ PRODUCT_SYSTEM_PROPERTIES += \
 # Media
 MSM_VIDC_TARGET_LIST := bengal
 
-include hardware/qcom/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
+include hardware/qcom-caf/bengal/media/conf_files/$(TARGET_BOARD_PLATFORM)/$(TARGET_BOARD_PLATFORM).mk
 
 PRODUCT_COPY_FILES += \
     device/qcom/common/vendor/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml
