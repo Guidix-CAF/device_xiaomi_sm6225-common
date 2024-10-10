@@ -382,6 +382,7 @@ PRODUCT_COPY_FILES += \
 # QC common
 PRODUCT_BOARD_PLATFORM := bengal
 TARGET_USE_BENGAL_HALS := true
+TARGET_HALS_PATH := hardware/qcom-caf/bengal
 
 $(call inherit-product, device/qcom/common/common.mk)
 
