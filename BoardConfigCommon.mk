@@ -166,6 +166,7 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
 include device/xiaomi/sepolicy/SEPolicy.mk
+include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/xiaomi/sm6225-common/sepolicy/SEPolicy.mk
 
 # WiFi
