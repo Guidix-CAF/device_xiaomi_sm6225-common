@@ -88,6 +88,7 @@ BOARD_RAMDISK_USE_LZ4    := true
 BOARD_TAGS_OFFSET        := 0x00000100
 
 BOARD_KERNEL_CMDLINE += \
+    androidboot.selinux=permissive \
     androidboot.fstab_suffix=qcom \
     androidboot.init_fatal_reboot_target=recovery \
     androidboot.hardware=qcom \
