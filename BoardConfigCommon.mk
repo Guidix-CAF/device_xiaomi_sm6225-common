@@ -166,6 +166,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 
 # Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 include device/xiaomi/sepolicy/SEPolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include device/xiaomi/sm6225-common/sepolicy/SEPolicy.mk
